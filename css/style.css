@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+</style>
+body{
+	margin: 0px;
+}
+.topbar{
+	display: flex;
+	height: 100px;
+	box-shadow: 4px;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #90465F;
+	box-shadow: 2px 2px 2px 2px #f1f1f1;
+	font-family: Patrick Hand;
+}
+.topbar a{
+	font-family: Patrick Hand;
+	margin: 12px 12px 12px 12px;
+	color: white;
+}
+.banner{
+	background: linear-gradient(rgba(100,34,78,0.3),rgba(34,100,200,0.4),rgba(200,100,34,0.2)), url(../image/1.jpg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	font-family: Patrick Hand;
+}
+.banner-text{
+	font-family: Patrick Hand;
+	display: flex;
+	height: 200px;
+	width: 200px;
+	align-items: center;
+	justify-content: center;
+	background-color: #90465F;
+	text-transform: uppercase;
+	/*margin-right: 15%;*/
+	color: white;
+	font-size: 31px;
+}
+.banner-btn{
+	margin-right: 19.8%;
+}
+.icon-bg {
+	height: 50px;
+	width: 50px;
+	border: 3px solid white;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.footer-menu div{
+	font-family: Patrick Hand;
+	flex: 1;
+}
+footer a{
+	font-family: Patrick Hand;
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+
+footer li{
+	margin-bottom: 12px;
+}
+.production-chain a{
+	color: white;
+}
+.feedback{
+	margin-top: 20px;
+	display: flex;
+}
+.icon-bg{
+	color: white;
+	background-color: orange;
+	margin: 5px;
+}
+.contact-us{
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(rgba(100,34,78,0.3),rgba(34,100,200,0.4),rgba(200,100,34,0.2)), url(../image/2.jpg);
+}
+ .inp input.form-control::placeholder  {
+	color: #f1f1f1;
+	opacity: 1;
+}
+.inp textarea.form-control::placeholder{
+	color: #f1f1f1;
+	opacity: 1;
+}
+.services{
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(rgba(100,34,78,0.3),rgba(34,100,200,0.4),rgba(200,100,34,0.2)), url(../image/3.jpg);	
+}.card-container{
+	display: flex;
+	justify-content: space-around;
+}
+.card-container div{
+	display: flex;
+	justify-content: space-around;
+	background-color: white;
+	height: 150px;
+	box-shadow: 5px;
+	flex: 1;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 15px;
+	color: #d3f1b1;
+}
+.card{
+	/*flex-basis: 44%;*/
+	border-radius: 35px;
+	border: 10px solid #fafafa;
+	/*padding: 20px;*/
+}
+/*.shadow .card .depth{
+	box-shadow: 6px, 6px, 6px, 6px, black;
+}*/
+
+.card-body h5{
+	text-transform: uppercase;
+	font-style: solid;
+	text-align: center;
+}
+.card-body{
+	display: flex;
+	flex-direction: column;
+}
+.card-body a{
+	border-radius: 25px;
+	font-weight: solid;
+}
+.card-body h3{
+	display: flex;
+	text-align: center;
+	font-style: solid;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.about-us{
+	height: 500px;
+	background-size: cover;
+	justify-content: space-around;
+	background-position: center;
+	background: linear-gradient(rgba(100,34,78,0.3),rgba(34,100,200,0.4),rgba(200,100,34,0.2)), url(../image/5.jpg);
+}
